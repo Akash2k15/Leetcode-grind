@@ -1,6 +1,9 @@
 class Solution {
 public:
     int firstUniqChar(string s) {
+        
+//         learnt map data structure (STL)
+        
         unordered_map<int,int> val;
         
         for(int i = 0; i<s.length();i++){
